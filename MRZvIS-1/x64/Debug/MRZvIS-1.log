@@ -1,0 +1,16 @@
+﻿Сборка начата 14.12.2016 13:14:08.
+     1>Проект "H:\MRZvIS-1\MRZvIS-1\MRZvIS-1.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\MRZvIS-1.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "MRZvIS-1.cpp"
+         MRZvIS-1.cpp
+     1>MRZvIS-1.cpp(73): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>MRZvIS-1.cpp(76): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"H:\MRZvIS-1\x64\Debug\MRZvIS-1.exe" /INCREMENTAL /NOLOGO /LIBPATH:H:\armadillo\examples\lib_win64 H:\armadillo\examples\lib_win64\blas_win64_MT.lib H:\armadillo\examples\lib_win64\lapack_win64_MT.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\MRZvIS-1\x64\Debug\MRZvIS-1.pdb" /SUBSYSTEM:CONSOLE /STACK:"3" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\MRZvIS-1\x64\Debug\MRZvIS-1.lib" /MACHINE:X64 "x64\Debug\MRZvIS-1.obj"
+         x64\Debug\stdafx.obj
+         MRZvIS-1.vcxproj -> H:\MRZvIS-1\x64\Debug\MRZvIS-1.exe
+     1>Сборка проекта "H:\MRZvIS-1\MRZvIS-1\MRZvIS-1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:21.73

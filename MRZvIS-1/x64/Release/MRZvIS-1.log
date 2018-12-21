@@ -1,0 +1,18 @@
+﻿Сборка начата 19.12.2018 12:25:12.
+     1>Проект "C:\Users\Lenovo\Desktop\MRZvIS-1\MRZvIS-1\MRZvIS-1.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\Lenovo\Desktop\armadillo\armadillo\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Ot /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\MRZvIS-1.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt "MRZvIS-1.cpp"
+         MRZvIS-1.cpp
+     1>MRZvIS-1.cpp(138): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>MRZvIS-1.cpp(203): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Lenovo\Desktop\MRZvIS-1\x64\Release\MRZvIS-1.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\Lenovo\Desktop\armadillo\armadillo\examples\lib_win64 C:\Users\Lenovo\Desktop\armadillo\armadillo\examples\lib_win64\blas_win64_MT.lib C:\Users\Lenovo\Desktop\armadillo\armadillo\examples\lib_win64\lapack_win64_MT.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Lenovo\Desktop\MRZvIS-1\x64\Release\MRZvIS-1.pdb" /SUBSYSTEM:CONSOLE /STACK:"3" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Lenovo\Desktop\MRZvIS-1\x64\Release\MRZvIS-1.lib" /MACHINE:X64 "x64\Release\MRZvIS-1.obj"
+         x64\Release\stdafx.obj
+         Создание кода
+         Создание кода завершено
+         MRZvIS-1.vcxproj -> C:\Users\Lenovo\Desktop\MRZvIS-1\x64\Release\MRZvIS-1.exe
+     1>Сборка проекта "C:\Users\Lenovo\Desktop\MRZvIS-1\MRZvIS-1\MRZvIS-1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:01:39.43
